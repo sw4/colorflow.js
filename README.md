@@ -1,7 +1,7 @@
 colorflow.js
 ============
 
-Javascript Color Scheming Library
+Javascript Color Scheming & Conversion Library
 
 Lightweight script built to provide:
 

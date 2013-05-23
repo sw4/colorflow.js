@@ -19,12 +19,12 @@ USAGE:
 
 Convert a color from type to type:
 ```
-hex2rgb(hex);
-hex2hsv(hex);
-rgb2hex([r,g,b]);
-rgb2hsv([r,g,b]);
-hsv2hex([h,s,v]);
-hsv2rgb([h,s,v]);
+colorflow.hex2rgb(hex);
+colorflow.hex2hsv(hex);
+colorflow.rgb2hex([r,g,b]);
+colorflow.rgb2hsv([r,g,b]);
+colorflow.hsv2hex([h,s,v]);
+colorflow.hsv2rgb([h,s,v]);
 ```
 Where HEX is a hex color string, other values are RGB or HSV arrays
 
@@ -60,7 +60,7 @@ Where hex is a HEX color reference
 
 Algorithmic palette generation:
 ```
-rotational_dispersion(hex, count, type, scope, rotation);
+colorflow.rotational_dispersion(hex, count, type, scope, rotation);
 ```
 Where hex is a base HEX color string, count is the number of colors to output, type is either "hue", "saturation" or "value"/"brightness"/"lightness", scope is the range of allowable degrees to consider (0-360 for hue, 0-100 for s or v/l/b). rotation is an optional value if type=hue allowing a start point to be designated (e.g. for complementary color palettes) 
 

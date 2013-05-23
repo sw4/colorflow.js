@@ -18,33 +18,33 @@ USAGE:
 
 
 Convert a color from type to type:
-hex2rgb(hex);
+```hex2rgb(hex);
 hex2hsv(hex);
 rgb2hex([r,g,b]);
 rgb2hsv([r,g,b]);
 hsv2hex([h,s,v]);
-hsv2rgb([h,s,v]);
+hsv2rgb([h,s,v]);```
 Where HEX is a hex color string, other values are RGB or HSV arrays
 
 
 Create a randomized color palette of count number of colors, count is optional
-colorflow.random(count);
+```colorflow.random(count);```
 
 
 Create a randomized color palette:
-colorflow.random(count);
+```colorflow.random(count);```
 Where count is an optional number of colors to generate
 
 
 Create a complementary palette:
-colorflow.complement(hex, type);
+```colorflow.complement(hex, type);```
 Where hex is a HEX color reference, and type is an optional switch to produce a split or double complementary palette of 3 or 5 colors
 
 
 Create a dispersed palette:
-colorflow.triadic(hex);
+```colorflow.triadic(hex);
 colorflow.tetradic(hex);
-colorflow.pentadic(hex);
+colorflow.pentadic(hex);```
 Where hex is a HEX color reference
 
 

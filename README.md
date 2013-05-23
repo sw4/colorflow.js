@@ -19,6 +19,7 @@ USAGE:
 
 Convert a color from type to type:
 ```
+javascript
 colorflow.hex2rgb(hex);
 colorflow.hex2hsv(hex);
 colorflow.rgb2hex([r,g,b]);

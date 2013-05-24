@@ -29,12 +29,6 @@ colorflow.hsv2rgb([h,s,v]);
 Where HEX is a hex color string, other values are RGB or HSV arrays
 
 
-Create a randomized color palette of count number of colors, count is optional
-```
-colorflow.random(count);
-```
-
-
 Create a randomized color palette:
 ```
 colorflow.random(count);

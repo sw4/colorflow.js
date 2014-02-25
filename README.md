@@ -1,4 +1,4 @@
-colorfow.js
+colorflow.js
 =============
 
 Javascript Color Conversion and Scheming Library

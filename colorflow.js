@@ -12,7 +12,8 @@ var hex2rgb = function (hex) {
     return [r,g,b];
 },
 
-rgb2hex = function ([255,140,0]) {
+rgb2hex = function (rgb) {
+    rgb=[255,140,0];
     var hex = '', h, i, c;
     for(i=0; i<rgb.length; i+=1) {
         c =rgb[i];

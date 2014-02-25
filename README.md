@@ -1,64 +1,9 @@
-colorflow.js
-============
+colorfow.js
+=============
 
-Javascript Color Scheming & Conversion Library
+Color conversion and Scheming Javascript Library
 
-Lightweight script built to provide:
-
-1. Interoperable conversion of HEX, RGB and HSV/L/B values
-2. Complementary (single, split and double), triadic, tetradic, pentadic and random color palette generation
-3. Linear palette generation on HUE, SATURATION or VALUE/LIGHTNESS/BRIGHTNESS
-2. Algorithmic palette generation using rotational dispersion on HUE
-
-
-USAGE:
-
-1. Download the minimized/optimized JS
-2. Link to it in the HEAD section of your page
-
-
-Convert a color from type to type:
-```
-colorflow.hex2rgb(hex);
-colorflow.hex2hsv(hex);
-colorflow.rgb2hex([r,g,b]);
-colorflow.rgb2hsv([r,g,b]);
-colorflow.hsv2hex([h,s,v]);
-colorflow.hsv2rgb([h,s,v]);
-```
-Where HEX is a hex color string, other values are RGB or HSV arrays
-
-
-Create a randomized color palette:
-```
-colorflow.random(count);
-```
-Where count is an optional number of colors to generate
-
-
-Create a complementary palette:
-```
-colorflow.complement(hex, type);
-```
-Where hex is a HEX color reference, and type is an optional switch to produce a split or double complementary palette of 3 or 5 colors
-
-
-Create a dispersed palette:
-```
-colorflow.triadic(hex);
-colorflow.tetradic(hex);
-colorflow.pentadic(hex);
-```
-Where hex is a HEX color reference
-
-
-Algorithmic palette generation:
-```
-colorflow.rotational_dispersion(hex, count, type, scope, rotation);
-```
-Where hex is a base HEX color string, count is the number of colors to output, type is either "hue", "saturation" or "value"/"brightness"/"lightness", scope is the range of allowable degrees to consider (0-360 for hue, 0-100 for s or v/l/b). rotation is an optional value if type=hue allowing a start point to be designated (e.g. for complementary color palettes) 
-
-
+Please visit the repository page (http://sw4.github.io/colorflow.js/) for installation and examples.
 
 ----------------------
 

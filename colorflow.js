@@ -159,7 +159,7 @@ degrees = function(degrees, offset) {
 // pick a point on the wheel, the number of degrees either side to cover and the split
  rotational_dispersion = function(hex, count, type, scope, rotation) {
     count = typeof count !== 'number' ? 3 : count;
-    type = typeof type !== 'string' ? 3 : type;
+    type = typeof type !== 'string' ? 'hue' : type;
     scope = typeof scope !== 'number' ? 360 : scope;
     rotation = typeof rotation !== 'number' ? 0 : rotation;
     var

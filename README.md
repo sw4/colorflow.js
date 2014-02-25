@@ -1,7 +1,7 @@
 colorfow.js
 =============
 
-Color conversion and Scheming Javascript Library
+Javascript Color Conversion and Scheming Library
 
 Please visit the repository page (http://sw4.github.io/colorflow.js/) for installation and examples.
 

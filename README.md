@@ -14,7 +14,7 @@ Methods
 ===
 
 `colorflow.hex2rgb(hex)`
-
+---
 Converts the passed #HEX color string to a RGB array [r, g, b], e.g. #FF0000 to [255,0,0]
 
 `colorflow.hex2hsv(hex)`

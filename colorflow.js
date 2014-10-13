@@ -187,7 +187,7 @@ var colorflow = (function () {
                 offset = steps * i;
                 switch (type) {
                 case "hue":
-                    palette.push(this.hsv2hex([this.degrees(origin, offset, 360), s, v]));
+                    palette.push(this.hsv2hex([this.degrees(origin, offset, 360) == 360 ? 0 : this.degrees(origin, offset, 360), s, v]));
                     break;
                 case "saturation":
                     palette.push(this.hsv2hex([h, offset, v]));

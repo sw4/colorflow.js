@@ -1,5 +1,10 @@
 colorflow.js
 =============
+[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](https://github.com/sw4/pocketknife) 
+
+Functionality now integrated into [pocketknife ui](https://github.com/sw4/pocketknife)
+
+--------------
 
 Javascript Color Conversion and Scheming Library
 
